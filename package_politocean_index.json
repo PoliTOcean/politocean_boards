@@ -2,13 +2,13 @@
   "packages":
   [
     {
-      "name": "PoliTOcean Boards",
+      "name": "PoliTOcean",
       "maintainer": "PoliTOcean",
       "websiteURL": "http://www.politocean.com/",
       "platforms":
       [
         {
-          "name": "PoliTOcean",
+          "name": "PoliTOcean Boards",
           "architecture": "avr",
           "version": "1.0.0",
           "category": "Contributed",
