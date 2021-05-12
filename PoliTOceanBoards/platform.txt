@@ -1,5 +1,5 @@
 # For more info:
-# https://github.com/PoliTOcean/politocean_boards
+# https://github.com/PoliTOcean/politocean_boards/tree/master/PoliTOceanBoards
 
 name=PoliTOcean Boards
 version=1.0.1
