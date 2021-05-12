@@ -10,15 +10,18 @@
         {
           "name": "PoliTOcean Boards",
           "architecture": "avr",
-          "version": "1.0.0",
+          "version": "1.0.1",
           "category": "Contributed",
           "url": "https://politocean.github.io/politocean_boards/PoliTOceanBoards.zip",
           "archiveFileName": "PoliTOceanBoards.zip",
-          "checksum": "SHA-256:05f13ece50604b4fa2a0359cbefdc10bce268f2ce17d8e42bafd95bc7ba20ea8",
-          "size": "28930",
+          "checksum": "SHA-256:81efd10e6e2a57b4d9358a6a913fed56251162d6f5c7d2ed6db7d0b0a0cb2fc9",
+          "size": "77688",
           "boards": [
             {
               "name": "ATmega328 Wifi"
+            },
+			{
+              "name": "ATmega2560 Wifi"
             }
           ],
           "toolsDependencies": [ ]

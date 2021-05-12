@@ -27,3 +27,33 @@
 328wifi.build.variant=arduino:eightanaloginputs
 
 ##############################################################
+
+2560wifi.name=ATmega2560 Wifi
+
+2560wifi.upload.tool=arduino:avrdude
+2560wifi.upload.protocol=wiring
+2560wifi.upload.maximum_size=253952
+2560wifi.upload.maximum_data_size=8192
+2560wifi.upload.speed=115200
+
+2560wifi.upload.network.endpoint_upload=/pgm/upload
+2560wifi.upload.network.endpoint_sync=/pgm/sync
+2560wifi.upload.network.sync_return=204:SYNC
+2560wifi.upload.network.endpoint_reset=/log/reset
+2560wifi.upload.network.port=80
+
+2560wifi.bootloader.tool=avrdude
+2560wifi.bootloader.low_fuses=0xFF
+2560wifi.bootloader.high_fuses=0xD8
+2560wifi.bootloader.extended_fuses=0xFD
+2560wifi.bootloader.unlock_bits=0x3F
+2560wifi.bootloader.lock_bits=0x0F
+2560wifi.bootloader.file=stk500v2/stk500boot_v2_mega2560.hex
+
+2560wifi.build.mcu=atmega2560
+2560wifi.build.f_cpu=16000000L
+2560wifi.build.board=AVR_MEGA2560
+2560wifi.build.core=arduino:arduino
+2560wifi.build.variant=arduino:mega
+
+##############################################################
