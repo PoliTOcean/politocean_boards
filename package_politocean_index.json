@@ -4,7 +4,10 @@
     {
       "name": "PoliTOcean",
       "maintainer": "PoliTOcean",
-      "websiteURL": "http://www.politocean.com/",
+      "websiteURL": "https://github.com/PoliTOcean/politocean_boards/tree/master/PoliTOceanBoards",
+	  "help": {
+        "online": "http://www.politocean.com/"
+      },
       "platforms":
       [
         {
@@ -12,16 +15,32 @@
           "architecture": "avr",
           "version": "1.0.1",
           "category": "Contributed",
-          "url": "https://politocean.github.io/politocean_boards/PoliTOceanBoards.zip",
-          "archiveFileName": "PoliTOceanBoards.zip",
-          "checksum": "SHA-256:81efd10e6e2a57b4d9358a6a913fed56251162d6f5c7d2ed6db7d0b0a0cb2fc9",
-          "size": "77688",
+          "url": "https://politocean.github.io/politocean_boards/versions/PoliTOceanBoards-1.0.1.zip",
+          "archiveFileName": "PoliTOceanBoards-1.0.1.zip",
+          "checksum": "SHA-256:db139b2162b0695f9bdf565d4c584fce45f249ba7961617694179c343bf52f11",
+          "size": "77755",
           "boards": [
             {
               "name": "ATmega328 Wifi"
             },
 			{
               "name": "ATmega2560 Wifi"
+            }
+          ],
+          "toolsDependencies": [ ]
+        },
+		{
+          "name": "PoliTOcean Boards",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://politocean.github.io/politocean_boards/versions/PoliTOceanBoards-1.0.0.zip",
+          "archiveFileName": "PoliTOceanBoards-1.0.0.zip",
+          "checksum": "SHA-256:6a3a3e429d8bc20dbb3d3648d0281db8486913f038868baaf33f1bbec0a9f456",
+          "size": "28997",
+          "boards": [
+            {
+              "name": "ATmega328 Wifi"
             }
           ],
           "toolsDependencies": [ ]
