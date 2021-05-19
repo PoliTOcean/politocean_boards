@@ -12,7 +12,7 @@
 328wifi.upload.network.endpoint_reset=/log/reset
 328wifi.upload.network.port=80
 
-328wifi.bootloader.tool=avrdude
+328wifi.bootloader.tool=arduino:avrdude
 328wifi.bootloader.low_fuses=0xFF
 328wifi.bootloader.high_fuses=0xDA
 328wifi.bootloader.extended_fuses=0xFD
@@ -42,7 +42,7 @@
 2560wifi.upload.network.endpoint_reset=/log/reset
 2560wifi.upload.network.port=80
 
-2560wifi.bootloader.tool=avrdude
+2560wifi.bootloader.tool=arduino:avrdude
 2560wifi.bootloader.low_fuses=0xFF
 2560wifi.bootloader.high_fuses=0xD8
 2560wifi.bootloader.extended_fuses=0xFD
