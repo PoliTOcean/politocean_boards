@@ -1,3 +1,6 @@
+### v1.0.2
+- Fixed bootloader avrdude problem
+
 ### v1.0.1
 - Added ATmega2560 Wifi micro (ATmega2560 integrated /w ESP-01 programmer)
 
